@@ -1,0 +1,131 @@
+
+
+  .bannerContainer{
+    margin-top:90px;
+    margin-bottom:140px;
+   
+  }
+  .bannerSection{
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(12, 12, 12, 0), rgba(10, 10, 10, 0.6)), url("../img/c1.jpg");
+  }
+  
+ 
+  
+  .banner-size{
+      height: auto;
+  }
+  
+  .myname{
+    text-align: center !important;
+    font-weight: bold;
+    font-size:100px !important;
+    color: #ffffff;
+    text-shadow: -1px -1px 0 #17a2b8, 1px -1px 0 #17a2b8, -1px 1px 0 #17a2b8, 1px 1px 0 #17a2b8;
+  }
+  
+  .line{
+      text-align: center;
+    color: #ffffff
+  }
+  
+  
+  .letterOfName{
+    display:inline-block;
+    /* margin: 0 -1px 0 -1px; */
+    user-select: none !important;
+    transition:0.3s;
+    color: #ffff;
+    font-weight: bold;
+  }
+  span.letterOfName:nth-child(even):hover {
+    /* filter: blur(2px); */
+    transform: rotate(60deg);
+    color: #17a2b8;
+    
+  }
+  span.letterOfName:nth-child(odd):hover {
+    /* filter: blur(2px); */
+    transform: rotate(60deg);
+    color: #17a2b8;
+    
+  }
+  .banner-subtitle{
+    font-size: 30px;
+    color:#ffffff;
+  }
+  .download-icon{
+    margin-right: 5px;
+  }
+  
+  
+  /* mediaQuery */
+  @media only screen and (max-width: 768px) {
+  .myname{
+    font-weight: bold;
+    font-size:40px !important;
+    color: #ffffff !important;
+    text-shadow: -1px -1px 0 #17a2b8, 1px -1px 0 #17a2b8, -1px 1px 0 #17a2b8, 1px 1px 0 #17a2b8;
+  }
+ 
+  .bannerContainer{
+    margin-top:40px;
+    margin-bottom:80px;
+  }
+  }
+  @media only screen and (max-width: 600px) {
+  .myname{
+    font-weight: bold;
+    font-size:30px !important;
+    color: #ffff !important;
+    text-shadow: -1px -1px 0 #17a2b8, 1px -1px 0 #17a2b8, -1px 1px 0 #17a2b8, 1px 1px 0 #17a2b8;
+  }
+  .bannerContainer{
+    margin-top:10px;
+    margin-bottom:40px;
+  }
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .image-size{
+    box-shadow: 5px 5px 5px 5px #17a2b8;
+    border-radius: 0 70px 0 70px;
+    width: 180px;
+  }
+  }
+  @media only screen and (max-width: 600px) {
+    .image-size{
+    box-shadow: 5px 5px 5px 5px #17a2b8;
+    border-radius: 0 70px 0 70px;
+    width: 180px;
+  }
+  }
+  
+  .header {
+    position: relative;
+    background-color: black;
+    height: 80vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  

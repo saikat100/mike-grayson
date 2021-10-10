@@ -1,0 +1,16 @@
+.header-socials {
+    float: left;
+    border-left: 2px solid #000;
+    line-height: 15px;
+}
+
+.logo-style{
+    margin-left:130px;
+}
+
+.header__middle__logo > a > h1 {
+    color: #07a8ff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 25px;  
+}

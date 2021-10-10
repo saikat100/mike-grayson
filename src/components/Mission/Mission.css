@@ -1,0 +1,18 @@
+.mission-image{
+    max-width: 500px;
+  }
+.missionGroup{
+    margin-top:50px;
+}
+
+.missionButton{
+    margin-top: 15px;
+    font-size: 1.1rem;
+    padding: .8rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border: 0;
+    cursor: pointer;
+    background-image: linear-gradient(to right,#00cbee,#29f2cd);
+    color: #ffff;
+}

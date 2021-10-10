@@ -1,0 +1,18 @@
+.fotter-bg{
+    background-color: #000;
+    color: #fff;
+}
+.socialIcon{
+    margin-top: 3px;
+    font-size: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.socialIcon:hover{
+    color: #07a8ff;
+}
+.copy-right{
+    margin-top: 150px;
+    margin-bottom:0px;
+}
