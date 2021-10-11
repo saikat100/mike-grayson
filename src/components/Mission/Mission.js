@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from "react-bootstrap";
+import Slide from 'react-reveal/Slide';
 import missionImg from '../../img/la1.jpg';
 import './Mission.css';
 export default function Mission() {
@@ -12,13 +13,16 @@ export default function Mission() {
             <section className="pb-5"  id="contact" className="contactContainer">
             <Container className="pt-5 footer-style" >
                 <div className="mt-4">
-                    <form className="contactForm">
+                    <form className="mission-form">
                         <Row>
+                        <Slide left cascade>
                             <Col md="6">
                                 <div>
                                 <img className="mission-image" src={missionImg} alt="mission" />
                                 </div>
                             </Col>
+                            </Slide>
+                            <Slide right cascade>
                             <Col md="6">
                                 <div className="missionGroup">
                                    <h3>FIND THE EVENT THAT’S RIGHT FOR YOU</h3>
@@ -26,6 +30,7 @@ export default function Mission() {
                                 </div>
                                 <button className="missionButton">SEE GRAYSON'S FULL BIO</button>
                             </Col>
+                            </Slide>
                         </Row>
                     </form>
                 </div>

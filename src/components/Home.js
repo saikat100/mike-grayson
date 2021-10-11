@@ -5,6 +5,9 @@ import Footer from './Footer/Footer'
 import Navbarmenu from './menu/Navbarmenu'
 import LifeAria from './LifeArea/LifeAria';
 import Mission from './Mission/Mission';
+import RWL from './RWL/RWL';
+import FNF from './FNF/FNF';
+import {FNFData} from './FNF/FNFData';
 const Home = () => {
 	return (
 			<>
@@ -34,6 +37,8 @@ const Home = () => {
 		</div>
 		<LifeAria/>
 		<Mission/>
+		<RWL/>
+		<FNF slides={FNFData}/>
 		<Footer />
 		</>
        )

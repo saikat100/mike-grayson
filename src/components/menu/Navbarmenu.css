@@ -1,11 +1,11 @@
 .header-socials {
-    float: left;
     border-left: 2px solid #000;
-    line-height: 15px;
+    line-height: 5px !important;
 }
 
 .logo-style{
     margin-left:130px;
+    font-weight: bolder;
 }
 
 .header__middle__logo > a > h1 {

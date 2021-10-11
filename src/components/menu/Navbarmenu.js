@@ -1,9 +1,8 @@
 import React,{useState} from 'react';
-import {NavLink, Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagramSquare } from 'react-icons/fa';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 import "./Navbarmenu.css";
-// import logo from '../../img/logo.png';
 
 
 const Navbarmenu = () => {
@@ -35,24 +34,19 @@ const Navbarmenu = () => {
         boxClassSubMenu.push('');
     }
 
-   
-
     return (
     <header className="header__middle">
         <div className="container">
             <div className="row">
 
-                {/* Add Logo  */}
                 <div className="header__middle__logo">
                     <NavLink exact activeClassName='is-active' to="/">
                         <h1 className="logo-style">GRAYSON</h1>
-                        {/* <img src={logo} alt="logo" />  */}
                     </NavLink>
                 </div>
                 <div className="header__middle__menus">
                     <nav className="main-nav " >
 
-                    {/* Responsive Menu Button */}
                     {isResponsiveclose === true ? <> 
                         <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiXCircle />   </span>
                     </> : <> 
@@ -64,11 +58,10 @@ const Navbarmenu = () => {
                     <li  className="menu-item" >
                         <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
                     </li>
-                    {/* <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </NavLink> </li> */}
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About <FiChevronDown /> </NavLink>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/blog`}> My Blog </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/book`}>  My Book </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Blog`}> My Blog </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Book`}>  My Book </NavLink> </li>
                         </ul>
                     </li>
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>

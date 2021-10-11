@@ -16,3 +16,10 @@
     background-image: linear-gradient(to right,#00cbee,#29f2cd);
     color: #ffff;
 }
+
+.mission-form{
+    padding-bottom: 15px;
+}
+.centered h1{
+    font-size: 50px;
+}

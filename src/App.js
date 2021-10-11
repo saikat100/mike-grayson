@@ -1,14 +1,11 @@
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import './App.css';
-
 import Home from './components/Home';
 import About from './components/About';
 import Blog from './components/Blog/Blog';
 import Book from './components/Book/Book';
 import Contact from './components/Contact/Contact';
-
-import Navbarmenu from './components/menu/Navbarmenu';
 
 function App() {
   return (
@@ -24,8 +21,6 @@ function App() {
           <Route path="/Blog" component={Blog}/>
           <Route path="/Book" component={Book}/>
           <Route path="/Contact" component={Contact}/>
-
-          
         </Switch>
       </Router>
 

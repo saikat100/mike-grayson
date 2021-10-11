@@ -1,0 +1,25 @@
+.rwl-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .rwl-img{
+    content: ' ';
+    width: 100%;
+    opacity: .6;
+    background-color: #000;
+  }
+  .rwl-container>img {
+    background: linear-gradient(rgba(12, 12, 12, 0), rgba(10, 10, 10, 0.6));
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1px -1px 0 #07a8ff, 1px -1px 0 #07a8ff, -1px 1px 0 #07a8ff, 1px 1px 0 #07a8ff;
+  }
+  .rwl-div{
+      margin-top: 20px;
+      margin-bottom: 50px;
+  }
