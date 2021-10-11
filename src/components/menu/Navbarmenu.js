@@ -67,23 +67,23 @@ const Navbarmenu = () => {
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>
                    
                     <li className="menu-item header-socials" >
-                        <a href="https://www.facebook.com/" target="_blank">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                         <FaFacebookF />
                         </a>
                     </li>
 
                     <li className="menu-item " >
-                        <a href="https://twitter.com/" target="_blank">
+                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                         <FaTwitter/>
                         </a>
                     </li>
                     <li className="menu-item " >
-                        <a href="https://www.linkedin.com/in/" target="_blank">
+                        <a href="https://www.linkedin.com/in/" target="_blank" rel="noreferrer">
                         <FaLinkedinIn />                     
                         </a>
                     </li>
                     <li className="menu-item " >
-                        <a href="https://instagram.com/" target="_blank">
+                        <a href="https://instagram.com/" target="_blank" rel="noreferrer">
                         <FaInstagramSquare />
                         </a>
                     </li>

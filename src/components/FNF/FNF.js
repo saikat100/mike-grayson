@@ -35,7 +35,7 @@ const FNF = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt='travel image' className='fnf-image' />
+              <img src={slide.image} alt='travelImage' className='fnf-image' />
             )}
           </div>
         );

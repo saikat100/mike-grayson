@@ -12,7 +12,7 @@ export default function RWL() {
             <h5 className="top-sub-hedng">
             GET STARTED NOW WITH INSIGHTS AND STRATEGIES FROM TONY ROBBINS
             </h5>
-            <section className="pb-5"  id="contact" className="contactContainer">
+            <section className="pb-5 contactContainer"  id="contact">
             <Container className="pt-5 footer-style" >
                 <div className="mt-4">
                     <form className="mission-form">
