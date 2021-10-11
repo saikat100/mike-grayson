@@ -29,20 +29,40 @@
     border: 0;
     cursor: pointer;
   }
+.contact-info{
+  margin-top:50px;
+  margin-left: 10px;
+  line-height: 200%;
+}
+
+  .contact-socials{
+    margin-top:50px;
+    display: flex;
+  }
+  .contact-social{ 
+    color: #fff !important;
+  } 
   
+  .contact-social:hover{ 
+    color: #07a8ff !important;
+  } 
+
   .p-text{
     text-align: justify;
-    margin-top: 1  qhaq0px;
+    padding-left: 10px;
+    margin-top: 50px;
   }
   
   .contactForm {
-    background-color: #f0f8ff;
+    color:#fff;
+    background-color: #02044a;
     padding: 20px;
+    margin-bottom:30px;
     border-radius: 10px;
   }
   
   .contactGroup label {
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     font-weight: 600;
     font-size: 14px;
   }
