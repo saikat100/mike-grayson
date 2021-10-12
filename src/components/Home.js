@@ -25,7 +25,7 @@ const Home = () => {
 					<Row className="align-items-center justify-content-center banner">
 						<Col md={12} className="all-center">
 							<h1 className="myname">
-							TAKE BACK INNER CONTROL
+							I'm committed to restore and build your credit
 							</h1>
 							<span className="line"></span>
 							<h4 className="line">FREE LIVE EVENT WITH Dr. GRAYSON</h4>

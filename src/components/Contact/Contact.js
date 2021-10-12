@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from "react-bootstrap";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagramSquare } from 'react-icons/fa';
-import { MdEmail, MdCall, MdLocationOn } from 'react-icons/md';
+import { MdEmail, MdCall, MdLocationOn, MdSend } from 'react-icons/md';
 import Footer from '../Footer/Footer';
 import Navbarmenu from '../menu/Navbarmenu';
 import "./Contact.css";
@@ -26,7 +26,7 @@ const Contact = () => {
                                     <br />
                                     <ul className="contact-info">
                                         <li>
-                                            <strong><MdEmail/> </strong> office@cdmionline.com
+                                            <strong><MdEmail/></strong> office@cdmionline.com
                                         </li>
                                         <li>
                                             <strong><MdCall/> </strong> (718) 481-3363
@@ -99,7 +99,7 @@ const Contact = () => {
                                         required
                                     />
                                 </div>
-                                <button className="contactButton">Send</button>
+                                <button className="contactButton">Send<MdSend className="send-icon"/> </button>
                             </Col>
                         </Row>
                     </form>

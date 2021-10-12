@@ -116,9 +116,6 @@ li {
   position: relative;
 }
 
-/* .active{
-  color: #ff1800!important;
-} */
 .header__middle__menus span.text {
   position: absolute;
   right: 177px;
@@ -169,11 +166,6 @@ li {
 .menu-item .sub__menus li:hover a{
   color: #07a8ff !important;
 }
-
-/* .header__middle__logo img{
-  max-width: 207px;
-  margin: 17px 0 0 0;
-} */
 
 
 

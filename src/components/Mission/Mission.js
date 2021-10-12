@@ -6,7 +6,7 @@ import './Mission.css';
 export default function Mission() {
     return (
         <div>
-            <h1 className="top-hedng">ON A MISSION TO CHANGE LIVES</h1>
+            <h1 className="top-hedng">ON A MISSION TO RESTORE CREDITS</h1>
             <h5 className="top-sub-hedng">
             Dr. GRAYSON HAS SPENT TRANSFORMING LIVES
             </h5>

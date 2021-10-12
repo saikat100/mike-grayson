@@ -30,13 +30,22 @@
     cursor: pointer;
   }
 .contact-info{
-  margin-top:50px;
-  margin-left: 10px;
-  line-height: 200%;
+  margin-top:25px;
+  line-height: 100%;
+}
+.contact-info li{
+  padding:10px;
+  margin-top:15px;
+  border: 2px solid #02044a;
+}
+
+.contact-info li:hover{
+  border: 2px solid #fff;
+  border-radius: 5px;
 }
 
   .contact-socials{
-    margin-top:50px;
+    margin-top:25px;
     display: flex;
   }
   .contact-social{ 
@@ -87,11 +96,11 @@
 
   .contactGroup textarea {
     resize: none;
-    height: 245px;
+    height: 145px;
   }
   .contactButton{
     margin-top: 15px;
-    font-size: 1.1rem;
+    font-size: 2rem;
     padding: .8rem;
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -100,6 +109,10 @@
     cursor: pointer;
     background-image: linear-gradient(to right,#00cbee,#29f2cd);
     color: #ffff;
+  }
+  .send-icon{
+    /* margin-top:5px; */
+    padding-top: 5px;
   }
   
   @media screen and (max-width: 767px) {

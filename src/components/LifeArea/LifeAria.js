@@ -12,7 +12,7 @@ export default function LifeAria() {
     return (
 
         <div>
-            <h1 className="top-hedng">AREA OF LIFE</h1>
+            <h1 className="top-hedng">AREA OF EXPERTISE</h1>
             <h5 className="top-sub-hedng">
             SOLUTIONS TO FIT YOUR TIME, YOUR LIFESTYLE AND YOUR BUDGET
             </h5>
@@ -34,7 +34,7 @@ export default function LifeAria() {
                             <div className="image image-style">
                                 <img className="image__img" src={LifeAriaImg2} alt="PRIVATE COACHING"/>
                                 <div className="image__overlay image__overlay--primary">
-                                    <div className="image__title">PRIVATE COACHING</div>
+                                    <div className="image__title">FREE CONSULTATION</div>
                                 </div>
                             </div>
                             </Col>
@@ -54,7 +54,7 @@ export default function LifeAria() {
                             <div className="image image-style">
                                 <img className="image__img" src={LifeAriaImg4} alt="SUPPLEMENTS"/>
                                 <div className="image__overlay image__overlay--primary">
-                                    <div className="image__title">SUPPLEMENTS</div>
+                                    <div className="image__title">TOP WITH ME</div>
                                 </div>
                             </div>
                             </Col>

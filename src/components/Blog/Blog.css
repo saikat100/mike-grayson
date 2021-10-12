@@ -1,0 +1,23 @@
+.blog-image{
+    height: 400px;
+    width:400px;
+}
+.blogContainer{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.imgDiv{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.imgDiv .blogImage{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.imgDiv:hover .blogImage{
+    transform: scale(1.1);
+}

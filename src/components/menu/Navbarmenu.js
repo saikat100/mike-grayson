@@ -37,7 +37,7 @@ const Navbarmenu = () => {
     return (
     <header className="header__middle">
         <div className="container">
-            <div className="row">
+            <div>
 
                 <div className="header__middle__logo">
                     <NavLink exact activeClassName='is-active' to="/">
@@ -87,11 +87,7 @@ const Navbarmenu = () => {
                         <FaInstagramSquare />
                         </a>
                     </li>
-               
-
                     </ul>
-
-
                     </nav>     
                 </div>   
             </div>
