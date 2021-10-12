@@ -13,7 +13,7 @@ const Contact = () => {
         <section className="pb-5 "  id="contact">
             <Container className="pt-5 " >
                 <div className="text-center mb-5">
-                <h1 className="top-hedng">Get in Touch</h1>
+                <h1 className="top-hedng space-heding">Get in Touch</h1>
                 </div>
                 <div className="mt-4">
                     <form className="contactForm">

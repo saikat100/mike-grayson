@@ -58,33 +58,33 @@ const Navbarmenu = () => {
                     <li  className="menu-item" >
                         <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
                     </li>
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About <FiChevronDown /> </NavLink>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <NavLink onClick={toggleClass} activeClassName='is-active' to={`/about`}> About <FiChevronDown /> </NavLink>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Blog`}> My Blog </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Book`}>  My Book </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/blog`}> My Blog </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/book`}>  My Book </NavLink> </li>
                         </ul>
                     </li>
-                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>
+                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/contact`}> Contact </NavLink> </li>
                    
-                    <li className="menu-item header-socials" >
+                    <li className="menu-item header-socials fb">
                         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                        <FaFacebookF />
+                        <FaFacebookF className="fb"/>
                         </a>
                     </li>
 
-                    <li className="menu-item " >
+                    <li className="menu-item tw" >
                         <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                        <FaTwitter/>
+                        <FaTwitter className="tw"/>
                         </a>
                     </li>
-                    <li className="menu-item " >
+                    <li className="menu-item linkedin" >
                         <a href="https://www.linkedin.com/in/" target="_blank" rel="noreferrer">
-                        <FaLinkedinIn />                     
+                        <FaLinkedinIn className="linkedin"/>                     
                         </a>
                     </li>
-                    <li className="menu-item " >
+                    <li className="menu-item instagram" >
                         <a href="https://instagram.com/" target="_blank" rel="noreferrer">
-                        <FaInstagramSquare />
+                        <FaInstagramSquare className="instagram"/>
                         </a>
                     </li>
                     </ul>

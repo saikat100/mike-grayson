@@ -10,11 +10,8 @@ export default function Book() {
     return (
         <>
         <Navbarmenu/>
-        <div className="book-container">
-            <h1 className="top-hedng">ABOUT MY BOOK</h1>
-            <h5 className="top-sub-hedng">
-            THE WORLD'S LEADING CREDIT EXPERT
-            </h5>
+        <div className="book-container ">
+            <h1 className="top-hedng space-heding">ABOUT MY BOOK</h1>
             <p>This amazing manual tells you how to use existing government programs to defer all of your creditor payments including your rent and mortgage for up to 12 months without damaging your credit or creditor relationships. Using this technique you can also arrange settlements, loan modifications and cancel some types of debts. This book is written by the World’s leading Credit Expert. Dr. Grayson’s techniques are so effective that he offers a $1 million reward to anyone who can beat his records. This book serves as a powerful introduction to the revolutionary Extreme Credit Series.</p>
             <section className="pb-5 contactContainer"  id="contact">
                 <Container className="pt-5 footer-style" >

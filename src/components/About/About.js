@@ -13,7 +13,7 @@ const About = () => {
                 <Navbarmenu/>
                 <section>
 					<Container className="about-container">
-						<Row className="align-items-center justify-content-center banner">
+						<Row className="align-items-center justify-content-center banner space-heding">
 							<Col md={6}>
 								<h1><span className="top-name">HI</span> I'm Dr. Michael C. Grayson!</h1>
 								<div>
@@ -26,23 +26,23 @@ const About = () => {
 								<ul className="about-socials">
                                         <li className="social-menu-item" >
                                             <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                            <FaFacebookF/>
+                                            <FaFacebookF className="fb"/>
                                             </a>
                                         </li>
 
                                         <li className="social-menu-item" >
                                             <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                                            <FaTwitter/>
+                                            <FaTwitter className="tw"/>
                                             </a>
                                         </li>
                                         <li className="social-menu-item " >
                                             <a href="https://www.linkedin.com/in/" target="_blank" rel="noreferrer">
-                                            <FaLinkedinIn/>                     
+                                            <FaLinkedinIn className="linkedin"/>                     
                                             </a>
                                         </li>
                                         <li className="social-menu-item" >
                                             <a href="https://instagram.com/" target="_blank" rel="noreferrer">
-                                            <FaInstagramSquare/>
+                                            <FaInstagramSquare className="instagram"/>
                                             </a>
                                         </li>
                                     </ul>

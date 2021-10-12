@@ -28,7 +28,6 @@ const Home = () => {
 							I'm committed to restore and build your credit
 							</h1>
 							<span className="line"></span>
-							<h4 className="line">FREE LIVE EVENT WITH Dr. GRAYSON</h4>
 						</Col>
 					</Row>
 				</Container>

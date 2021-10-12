@@ -7,7 +7,7 @@
 
 .missionButton{
     margin-top: 15px;
-    font-size: 1.1rem;
+    font-size: 2.1rem;
     padding: .8rem;
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -15,6 +15,7 @@
     cursor: pointer;
     background-image: linear-gradient(to right,#00cbee,#29f2cd);
     color: #ffff;
+    border-radius:25px;
 }
 
 .mission-form{

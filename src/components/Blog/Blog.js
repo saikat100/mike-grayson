@@ -14,16 +14,14 @@ export default function Blog() {
     return (
         <>
             <Navbarmenu/>
-            <h1 className="top-hedng">LATEST NEWS FROM MY BLOG</h1>
-            <h5 className="top-sub-hedng">
-            THE WORLD'S LEADING CREDIT EXPERT
-            </h5>
+            <div>
             <section className="blogContainer">
-            <Container className="pt-5 footer-style" >
+            <Container className="pt-5 footer-style space-heding" >
+            <h1 className="top-hedng">LATEST NEWS FROM MY BLOG</h1>
                 <div className="mt-4">
                     <form className="mission-form">
                     <Slide  left cascade>
-                        <Row>
+                        <Row style={{marginTop:"50px"}}>
                             <Col md="4">
                             <div className="image image-style imgDiv">
                                 <img className="image__img blogImage" src={blogImg1} alt="PLATINUM PARTNESHIP"/>
@@ -88,6 +86,7 @@ export default function Blog() {
                 </div>
             </Container>
          </section>  
+            </div>
             <Footer />
         </>
     )
