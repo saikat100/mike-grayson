@@ -34,10 +34,10 @@ const Home = () => {
 			</header>
 		</section>
 		</div>
-		<LifeAria/>
+		{/* <LifeAria/>
 		<Mission/>
 		<RWL/>
-		<FNF slides={FNFData}/>
+		<FNF slides={FNFData}/> */}
 		<Footer />
 		</>
        )

@@ -39,15 +39,15 @@
     font-weight: bold;
 }
   .fnf-image {
-    width: 800px;
-    height: 300px;
+    width: 700px;
+    height: 250px;
     border-radius: 10px;
   }
   
   .right-arrow {
     position: absolute;
     top: 50%;
-    right: 32px;
+    right: 45px;
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -58,7 +58,7 @@
   .left-arrow {
     position: absolute;
     top: 50%;
-    left: 32px;
+    left: 45px;
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -80,15 +80,15 @@
 
   @media (max-width: 768px) {
     .fnf-image {
-        width: 350px;
-        height: 200px;
+        width: 80px;
+        height: 90px;
         border-radius: 10px;
       }
   }
 
   @media (max-width: 900px) {
     .fnf-image {
-        width: 450px;
+        width: 250px;
         height: 200px;
         border-radius: 10px;
       }

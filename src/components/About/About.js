@@ -11,7 +11,6 @@ const About = () => {
        return (
             <div>
                 <Navbarmenu/>
-                <section>
 					<Container className="about-container">
 						<Row className="align-items-center justify-content-center banner">
 							<Col md={6}>
@@ -61,7 +60,6 @@ const About = () => {
 							</Col>
 						</Row>
 					</Container>
-				</section>
                 <Footer/>
               </div>
        )
