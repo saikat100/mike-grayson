@@ -53,7 +53,7 @@ export default function Book() {
                                     <p>by DR MICHAEL C GRAYSON | Jan 1, 2011</p>
                                     </div>
                                     <a href="https://www.amazon.com/Extreme-Credit-Perfect-EXTREME-CREDIT/dp/0615422608/ref=sr_1_4?dchild=1&qid=1632541776&refinements=p_27%3ADR+MICHAEL+C+GRAYSON&s=books&sr=1-4" target='_blank' rel='noreferrer'>
-                                        <button className="missionButton">Learn More</button>
+                                        <button className="missionButton btn-space">Learn More</button>
                                     </a>
                                 </Col>
                                 </Slide>
