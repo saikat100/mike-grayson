@@ -13,7 +13,7 @@ const About = () => {
                 <Navbarmenu/>
                 <section>
 					<Container className="about-container">
-						<Row className="align-items-center justify-content-center banner space-heding">
+						<Row className="align-items-center justify-content-center banner">
 							<Col md={6}>
 								<h1><span className="top-name">HI</span> I'm Dr. Michael C. Grayson!</h1>
 								<div>

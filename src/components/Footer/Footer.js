@@ -52,9 +52,8 @@ export default function Footer() {
                 </Row>
           </Container>   
         </footer>
-        <p className='text-center copy-right'>Copyright © 2021 Self Esteem Seminars, L.P. All rights reserved. <br />
-        Grasson Canfield is a registered trademark of Self Esteem Seminars, L.P. The Success Principles is the common law trademark of Self Esteem Seminars, L.P. <br />
-        Privacy Policy | Contact Us | About</p>
+        <p className='text-center copy-right'>Copyright © 2021  All Right Reserved By Credit and Debt Management Institute, Inc <br />
+        Powered by Spread More</p>
 
         </div>
     )

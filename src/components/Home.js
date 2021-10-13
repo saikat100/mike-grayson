@@ -36,8 +36,8 @@ const Home = () => {
 		</div>
 		<LifeAria/>
 		<Mission/>
-		{/* <RWL/>
-		<FNF slides={FNFData}/> */}
+		<RWL/>
+		<FNF slides={FNFData}/>
 		<Footer />
 		</>
        )
